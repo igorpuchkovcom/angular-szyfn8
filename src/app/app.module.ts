@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { PersonListComponent } from './person-list/person-list.component';
 import { PersonDetailsComponent } from './person-details/person-details.component';
 
+import { AngularFireModule } from '@angular/fire';
+
+import { environment } from '../environments/environment';
+
 @NgModule({
   imports: [
     BrowserModule,
